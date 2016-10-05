@@ -1,0 +1,17 @@
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: /home/mist/Vivado/2015.2/bin/unwrapped/lnx64.o/xelab -wto 3255d831835a43ad8284e164a392acc1 --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot new_full_shcheme_tb_behav xil_defaultlib.new_full_shcheme_tb -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+WARNING: [XSIM 43-3447] Restricting number of parallel compilation jobs to 4 to avoid system resource limitations.
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling architecture new_full_scheme_arch of entity xil_defaultlib.new_full_scheme [new_full_scheme_default]
+Compiling architecture c_new_full_scheme_arch of entity xil_defaultlib.c_new_full_scheme [c_new_full_scheme_default]
+Compiling architecture new_full_shcheme_tb_ach of entity xil_defaultlib.new_full_shcheme_tb
+Built simulation snapshot new_full_shcheme_tb_behav

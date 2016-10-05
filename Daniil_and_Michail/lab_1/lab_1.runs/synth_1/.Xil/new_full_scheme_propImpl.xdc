@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:/home/mist/Bairak_labs/lab_1.srcs/constrs_1/new/lab_1.xdc rfile:../../../lab_1.srcs/constrs_1/new/lab_1.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property LOAD 0 [get_ports o_a]
+set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
+set_load 0.000 [all_outputs]
