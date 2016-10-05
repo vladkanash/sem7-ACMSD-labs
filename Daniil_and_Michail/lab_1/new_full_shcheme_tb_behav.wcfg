@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="new_full_shcheme_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="new_full_shcheme_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="7" />
+   <wvobject db_ref_id="1" type="logic" fp_name="/new_full_shcheme_tb/t_not_G">
+      <obj_property name="ElementShortName">t_not_G</obj_property>
+      <obj_property name="ObjectShortName">t_not_G</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/new_full_shcheme_tb/t_D">
+      <obj_property name="ElementShortName">t_D</obj_property>
+      <obj_property name="ObjectShortName">t_D</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/new_full_shcheme_tb/t_S">
+      <obj_property name="ElementShortName">t_S[2:0]</obj_property>
+      <obj_property name="ObjectShortName">t_S[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/new_full_shcheme_tb/t_not_CLR">
+      <obj_property name="ElementShortName">t_not_CLR</obj_property>
+      <obj_property name="ObjectShortName">t_not_CLR</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/new_full_shcheme_tb/t_x">
+      <obj_property name="ElementShortName">t_x[5:0]</obj_property>
+      <obj_property name="ObjectShortName">t_x[5:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/new_full_shcheme_tb/t_y">
+      <obj_property name="ElementShortName">t_y[7:0]</obj_property>
+      <obj_property name="ObjectShortName">t_y[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/new_full_shcheme_tb/c_t_y">
+      <obj_property name="ElementShortName">c_t_y[7:0]</obj_property>
+      <obj_property name="ObjectShortName">c_t_y[7:0]</obj_property>
+   </wvobject>
+</wave_config>

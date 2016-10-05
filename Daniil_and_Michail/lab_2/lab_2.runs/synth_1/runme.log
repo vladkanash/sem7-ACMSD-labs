@@ -1,0 +1,30 @@
+
+*** Running vivado
+    with args -log JK.vds -m64 -mode batch -messageDb vivado.pb -notrace -source JK.tcl
+
+WARNING: Default location for XILINX_VIVADO_HLS not found: 
+
+****** Vivado v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source JK.tcl -notrace
+Command: synth_design -top JK -part xc7a200tfbg676-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 910.137 ; gain = 140.520 ; free physical = 117 ; free virtual = 10129
+---------------------------------------------------------------------------------
+ERROR: [Synth 8-1636] attribute event does not return type std_ulogic [/home/mist/semestr-7/APPMS/lab_2/lab_2.srcs/sources_1/new/jk.vhd:50]
+INFO: [Synth 8-2810] unit jk_arch ignored due to previous errors [/home/mist/semestr-7/APPMS/lab_2/lab_2.srcs/sources_1/new/jk.vhd:19]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:15 . Memory (MB): peak = 944.418 ; gain = 174.801 ; free physical = 110 ; free virtual = 10095
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+3 Infos, 0 Warnings, 0 Critical Warnings and 2 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Wed Sep 21 20:28:59 2016...

@@ -1,0 +1,9 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mist/semestr-7/APPMS/sem7-ACMSD-labs/Daniil_and_Michail/lab_2/lab_2.srcs/sources_1/new/jk.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity JK
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mist/semestr-7/APPMS/sem7-ACMSD-labs/Daniil_and_Michail/lab_2/lab_2.srcs/sources_1/new/full_scheme.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity full_scheme
+WARNING: [VRFC 10-280] actual for formal port clk is neither a static name nor a globally static expression [/home/mist/semestr-7/APPMS/sem7-ACMSD-labs/Daniil_and_Michail/lab_2/lab_2.srcs/sources_1/new/full_scheme.vhd:59]
+WARNING: [VRFC 10-280] actual for formal port rbar is neither a static name nor a globally static expression [/home/mist/semestr-7/APPMS/sem7-ACMSD-labs/Daniil_and_Michail/lab_2/lab_2.srcs/sources_1/new/full_scheme.vhd:61]
+WARNING: [VRFC 10-280] actual for formal port sbar is neither a static name nor a globally static expression [/home/mist/semestr-7/APPMS/sem7-ACMSD-labs/Daniil_and_Michail/lab_2/lab_2.srcs/sources_1/new/full_scheme.vhd:62]
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/mist/semestr-7/APPMS/sem7-ACMSD-labs/Daniil_and_Michail/lab_2/lab_2.srcs/sim_1/new/full_scheme_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity full_scheme_tb

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="full_scheme_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="full_scheme_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="10" />
+   <wvobject db_ref_id="1" type="logic" fp_name="/full_scheme_tb/Clk_o">
+      <obj_property name="ElementShortName">Clk_o</obj_property>
+      <obj_property name="ObjectShortName">Clk_o</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/full_scheme_tb/Count_direct">
+      <obj_property name="ElementShortName">Count_direct</obj_property>
+      <obj_property name="ObjectShortName">Count_direct</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/full_scheme_tb/CPD_o">
+      <obj_property name="ElementShortName">CPD_o</obj_property>
+      <obj_property name="ObjectShortName">CPD_o</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/full_scheme_tb/CPU_o">
+      <obj_property name="ElementShortName">CPU_o</obj_property>
+      <obj_property name="ObjectShortName">CPU_o</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/full_scheme_tb/MR_o">
+      <obj_property name="ElementShortName">MR_o</obj_property>
+      <obj_property name="ObjectShortName">MR_o</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/full_scheme_tb/PLbar_o">
+      <obj_property name="ElementShortName">PLbar_o</obj_property>
+      <obj_property name="ObjectShortName">PLbar_o</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/full_scheme_tb/Data_o">
+      <obj_property name="ElementShortName">Data_o[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_o[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/full_scheme_tb/Q_o">
+      <obj_property name="ElementShortName">Q_o[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Q_o[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/full_scheme_tb/TCDbar_o">
+      <obj_property name="ElementShortName">TCDbar_o</obj_property>
+      <obj_property name="ObjectShortName">TCDbar_o</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/full_scheme_tb/TCUbar_o">
+      <obj_property name="ElementShortName">TCUbar_o</obj_property>
+      <obj_property name="ObjectShortName">TCUbar_o</obj_property>
+   </wvobject>
+</wave_config>

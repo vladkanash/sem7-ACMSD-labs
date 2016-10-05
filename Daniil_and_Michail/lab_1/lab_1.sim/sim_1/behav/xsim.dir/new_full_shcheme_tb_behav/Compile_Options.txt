@@ -1,0 +1,1 @@
+-wto "3255d831835a43ad8284e164a392acc1" --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "secureip" --snapshot "new_full_shcheme_tb_behav" "xil_defaultlib.new_full_shcheme_tb" -log "elaborate.log" 
